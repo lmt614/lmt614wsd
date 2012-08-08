@@ -6,8 +6,7 @@ mint              bee5e2
 turquoise         61bfc7
 ------------------------------------*/
 h1 {
-	font-size: 48px;
-	font-family: "Great Vibes", cursive;
+	font: 48px "Great Vibes", cursive;
   	color: #61bfc7;
   	 
 }
@@ -18,5 +17,5 @@ h2 {
 }
 
 p {
-	font: 13 "Prata", serif;
+	font: 13px "Prata", serif;
 }
