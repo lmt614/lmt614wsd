@@ -9,6 +9,7 @@ light tan    	  ede9e5
 
 body {
 	background: #dccfbf;
+	
 }
 
 #wrapper {
@@ -22,6 +23,10 @@ nav {
 	margin:0 auto;
 	background: #bee5e2;
 		
+}
+
+article img{
+	float: left;
 }
 
 h1 {
