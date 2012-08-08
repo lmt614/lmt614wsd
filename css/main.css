@@ -6,17 +6,27 @@ mint              bee5e2
 turquoise         61bfc7
 light tan    	  ede9e5
 ------------------------------------*/
+
+body {
+	background: #dccfbf;
+}
+
+#wrapper {
+	width: 980px;
+	margin: 0 auto;
+	background: #fff;
+}
+
 nav {
 	width: 500px;
 	margin:0 auto;
 	background: #bee5e2;
-	
-	
+		
 }
 
 h1 {
 	font: 48px "Great Vibes", cursive;
-  	color: #61bfc7;
+  	color: #d24087;
   	 
 }
 
