@@ -4,6 +4,7 @@ bright pink       d24087
 rose pink         e089be
 mint              bee5e2
 turquoise         61bfc7
+light tan    	  ede9e5
 ------------------------------------*/
 h1 {
 	font: 48px "Great Vibes", cursive;
@@ -17,5 +18,9 @@ h2 {
 }
 
 p {
+	font: 13px "Prata", serif;
+}
+
+ol {
 	font: 13px "Prata", serif;
 }
