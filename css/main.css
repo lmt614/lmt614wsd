@@ -7,9 +7,10 @@ turquoise         61bfc7
 ------------------------------------*/
 h1 {
 	font: 48px "Great Vibes", cursive;
-  	color: blue;
+  	color: #61bfc7;
 }
 
 h2 {
-	font: 28px "IM Fell French Canon SC'" serif;
+	font: 28px "IM Fell French Canon SC", serif;
+	color: #61bfc7;
 }
