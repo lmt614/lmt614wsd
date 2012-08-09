@@ -90,3 +90,15 @@ p {
 	font: 13px "Prata", serif;
 	padding: 10px;
 }
+
+/*-----------Image Gallery--------*/
+
+#gallery ul{
+	border: 1px dashed #fff;
+	list-style-type: none;
+	width: 527px;
+	margin: 20px auto;
+	overflow: hidden;
+	padding: 5px;
+}
+/*----------End of Image Gallery----*/
