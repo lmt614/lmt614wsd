@@ -66,18 +66,21 @@ nav li a:active {
 
 article img{
 	border: 4px solid #d24087;
-	margin: 0 8px 0 0;
+	margin: 0 10px 0 10px;
 	float: left;	
 }
 
-h1 {
+header h1 {
 	width: 790px;
 	height: 150px;
 	padding: 0;
 	margin: 0 auto;
 	background: #d24087;
 	font: 48px "Great Vibes", cursive;
-  	color: #bee5e2; 
+  	color: #fff; 
+  	text-indent: 35px;
+  	text-shadow: 12px #000;
+  	line-height: 2.5;
 }
 
 h2 {
