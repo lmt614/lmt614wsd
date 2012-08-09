@@ -19,6 +19,7 @@ body {
 	background: #fff;
 }
 /*---------Main Navigation-----------*/
+
 nav ul{
 	width: 500px;
 	margin:0 auto;
@@ -28,18 +29,22 @@ nav ul{
 	overflow: hidden;	
 }
 
-nav li{
+nav li {
 	width: 100px;
-	background: #ede9e5;
 	float: left; 
 }
 
-nav li a{
+nav li a {
 	text-decoration: none;
 	background: #d24087;
-	color: #fff;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
 }
+
 /*----------End of Main Navigation-----*/
+
 article img{
 	border: 4px solid #d24087;
 	margin: 0 8px 0 0;
