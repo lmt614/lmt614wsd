@@ -19,11 +19,11 @@ body {
 	background: #fff;
 }
 
-nav {
+nav ul{
 	width: 500px;
 	margin:0 auto;
 	background: #d24087;
-		
+	list-style-type: none;	
 }
 
 article img{
