@@ -43,6 +43,21 @@ nav li a {
 	text-align: center;
 }
 
+nav li a:link {
+	color: #fff;
+}
+
+nav li a:visited {
+	color: #e089be;
+}
+
+nav li a:hover {
+	color: #61bfc7; 
+}
+
+nav li a:active {
+	color: #fff750;
+}
 /*----------End of Main Navigation-----*/
 
 article img{
