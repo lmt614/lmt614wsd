@@ -108,7 +108,7 @@ p {
 }
 
 #gallery a {
-	border: 10px solid #fff
+	border: 10px solid #fff;
 	display: block;
 	height: 101px;
 	width: 130px;
