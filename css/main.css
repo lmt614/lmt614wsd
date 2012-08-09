@@ -71,6 +71,11 @@ article img{
 }
 
 h1 {
+	width: 790px;
+	height: 150px;
+	padding: 0;
+	margin: 0 auto;
+	background: #d24087;
 	font: 48px "Great Vibes", cursive;
   	color: #bee5e2; 
 }
