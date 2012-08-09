@@ -97,7 +97,6 @@ p {
 /*-----------Image Gallery--------*/
 
 #gallery ul {
-	border: 1px dashed #d24087;
 	list-style-type: none;
 	width: 660px;
 	margin: 20px auto;
@@ -107,11 +106,12 @@ p {
 
 #gallery li {
 	float: left;
-	margin-left: 20px;
+	margin: 0 0 0 2px;
+	padding: 0 0 0 8px;
 }
 
 #gallery a {
-	border: 5px solid #d24087;
+	border: 6px solid #d24087;
 	display: block;
 	height: 231px;
 	width: 130px;
