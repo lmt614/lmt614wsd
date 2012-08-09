@@ -117,3 +117,22 @@ p {
 }
 
 /*----------End of Image Gallery----*/
+
+
+/*----------Contact Section---------*/
+#contact a:link {
+	color: #d24087;
+}
+
+#contact a:visited {
+	color: #bee5e2;
+}
+
+#contact a:hover{
+	color: #61bfc7;
+}
+
+#contact a:active {
+	color: #fff750;
+
+/*-----------End of Contact Section--------*/
