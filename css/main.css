@@ -107,4 +107,12 @@ p {
 	margin-left: 19px;
 }
 
+#gallery a {
+	border: 10px solid #fff
+	display: block;
+	height: 101px;
+	width: 130px;
+	outline: 0px;
+}
+
 /*----------End of Image Gallery----*/
