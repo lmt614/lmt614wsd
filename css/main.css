@@ -65,6 +65,7 @@ nav li a:active {
 }
 /*----------End of Main Navigation-----*/
 
+/*----------Main Content-----------*/
 article img{
 	border: 4px solid #d24087;
 	margin: 0 10px 0 10px;
@@ -94,6 +95,7 @@ p {
 	font: 13px "Prata", serif;
 	margin-left: 10px
 }
+/*--------------End of Main Content-----------*/
 
 /*-----------Image Gallery--------*/
 
@@ -142,27 +144,10 @@ p {
 
 /*--------End of Pricing and Packages----*/
 
-/*----------Contact Section---------*/
-
+/*--------Contact Section----------*/
 #contact aside {
+	font: 18px "Great Vibes", cursive;
+	color: #d24087;	
 	padding: 10px;
 }
-#contact a:link {
-	color: #d24087;
-}
-
-#contact a:visited {
-	color: #bee5e2;
-}
-
-#contact a:hover {
-	color: #61bfc7;
-}
-
-#contact a:active {
-	color: #fff750;
-}	
-
-/*-----------End of Contact Section--------*/
-
-
+/*----------Contact Section--------*/
