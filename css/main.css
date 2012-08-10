@@ -88,7 +88,7 @@ h2 {
 	font: 28px "IM Fell French Canon SC", serif;
 	color: #61bfc7;
 	margin: 45px 0 0 10px;
-	padding: 10px;
+	padding: 0px;
 }
 
 p {
@@ -150,4 +150,9 @@ p {
 	color: #d24087;	
 	padding: 10px;
 }
+
+#contact span {
+	padding: 10px;
+}
+
 /*----------Contact Section--------*/
