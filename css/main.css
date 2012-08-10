@@ -222,3 +222,12 @@ p {
 }
 /*------------End of Contact Button---------*/
 
+/*----------------Footer------------*/
+div footer {
+	width: 790px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	background: #d24087;
+}
+/*------------End of Footer----------*/
