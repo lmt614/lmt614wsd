@@ -222,9 +222,14 @@ p {
 }
 /*------------End of Contact Button---------*/
 
-/*------------Space for Form----------*/
+/*------------Space for Form---------
 
-/*------------End of Form------------*/
+#form {
+	width: 790px;
+	background-color: #bee5e2;
+	
+
+}------------End of Form------------*/
 
 /*----------------Footer------------*/
 div footer {
