@@ -120,6 +120,27 @@ p {
 
 /*----------End of Image Gallery----*/
 
+/*---------Pricing and Packages--------*/
+
+#pricing {
+	border: 5px dotted #d24087;
+	background: #bee5e2;
+	opacity: 1.2;
+	-moz-column-count: 3;
+	-moz-column-gap: 10px;
+	padding: 15px;
+}
+
+#pricing span{
+	background: #d24087; 
+	color: #fff;
+	font-size: 25px;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+/*--------End of Pricing and Packages----*/
 
 /*----------Contact Section---------*/
 
