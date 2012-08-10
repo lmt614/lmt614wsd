@@ -12,6 +12,7 @@ body {
 	line-height: 1.5;
 	margin-left: auto;
 	margin-right: auto;	
+	padding: 10px;
 }
 
 #wrapper {
@@ -75,7 +76,7 @@ header h1 {
 	height: 150px;
 	padding: 0;
 	margin: 0 auto;
-	background: #d24087;
+	background-image: url("../images/pink_bg.jpg");
 	font: 48px "Great Vibes", cursive;
   	color: #fff; 
   	text-indent: 18px;
@@ -85,12 +86,13 @@ header h1 {
 h2 {
 	font: 28px "IM Fell French Canon SC", serif;
 	color: #61bfc7;
+	margin: 0 0 0 10px;
 	padding: 10px;
 }
 
 p {
 	font: 13px "Prata", serif;
-	padding: 10px;
+	margin-left: 10px
 }
 
 /*-----------Image Gallery--------*/
@@ -120,6 +122,10 @@ p {
 
 
 /*----------Contact Section---------*/
+
+#contact aside {
+	padding: 10px;
+}
 #contact a:link {
 	color: #d24087;
 }
@@ -136,3 +142,5 @@ p {
 	color: #fff750;
 
 /*-----------End of Contact Section--------*/
+
+
