@@ -86,7 +86,7 @@ header h1 {
 h2 {
 	font: 28px "IM Fell French Canon SC", serif;
 	color: #61bfc7;
-	margin: 0 0 0 10px;
+	margin: 45px 0 0 10px;
 	padding: 10px;
 }
 
@@ -155,12 +155,13 @@ p {
 	color: #bee5e2;
 }
 
-#contact a:hover{
+#contact a:hover {
 	color: #61bfc7;
 }
 
 #contact a:active {
 	color: #fff750;
+}	
 
 /*-----------End of Contact Section--------*/
 
