@@ -8,6 +8,7 @@ light tan    	  ede9e5
 ------------------------------------*/
 
 body {
+	width: 960px;
 	background: #ede9e5;
 	line-height: 1.5;
 	margin-left: auto;
