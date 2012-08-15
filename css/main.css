@@ -141,7 +141,7 @@ p {
 	background: #d24087; 
 	color: #fff;
 	font-size: 1.5625em; /*25px/16px*/
-	padding: 10px;
+	padding: 001.322751322751%; /*10px/756*/
 	text-align: center;
 	
 }
