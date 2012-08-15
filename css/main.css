@@ -139,7 +139,7 @@ p {
 #pricing span{
 	background: #d24087; 
 	color: #fff;
-	font-size: 25px;
+	font-size: 1.5625em; /*25px/16px*/
 	padding: 10px;
 	text-align: center;
 	
