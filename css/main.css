@@ -105,15 +105,15 @@ p {
 #gallery ul {
 	list-style-type: none;
 	width: 660px;
-	margin: 003.030303030303% auto;/*20px auto/660px*/
+	margin: 003.030303030303% auto;/*20px auto/960px*/
 	overflow: hidden;
 	padding: 0px;
 }
 
 #gallery li {
 	float: left;
-	margin: 0 0 0 2px;
-	padding: 0 0 0 8px;
+	margin: 0 0 0 000.208333333333%; /*0 0 0 2px/960px*/
+	padding: 0 0 0 001.212121212121%; /*0 0 0 8px/660px*/
 }
 
 #gallery a {
