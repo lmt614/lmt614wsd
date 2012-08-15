@@ -149,7 +149,7 @@ p {
 /*--------Contact Section----------*/
 
 #contact aside {
-	font: 18px "Great Vibes", cursive;
+	font: 1.125em "Great Vibes", cursive; /*18px/16px*/
 	color: #d24087;	
 	padding: 10px;
 }
