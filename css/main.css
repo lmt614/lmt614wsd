@@ -95,7 +95,7 @@ h2 {
 }
 
 p {
-	font: 13px "Prata", serif;
+	font: 0.8125em "Prata", serif; /*13px*/
 	margin-left: 10px
 }
 /*--------------End of Main Content-----------*/
