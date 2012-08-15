@@ -90,7 +90,7 @@ header h1 {
 h2 {
 	font: 1.75em "IM Fell French Canon SC", serif; /*28px*/
 	color: #61bfc7;
-	margin: 45px 0 0 10px;
+	margin: 004.6875% 0 0 001.041666666667%; /*45px 0 0 10px/960px*/
 	padding: 0px;
 }
 
