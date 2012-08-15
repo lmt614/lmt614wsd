@@ -196,7 +196,7 @@ p {
 	border-radius: 2em;
 }
 .medium {
-	font-size: 12px;
+	font-size: 0.75em; /*12px/16px*/
 	padding: .4em 1.5em .42em;
 }
 .small {
