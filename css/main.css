@@ -155,7 +155,7 @@ p {
 }
 
 #contact span {
-	padding: 10px;
+	padding: 001.041666666667%; /*10px/960px*/
 }
 
 /*----------End of Contact Section--------*/
