@@ -71,7 +71,7 @@ nav li a:active {
 
 article img{
 	border: 4px solid #d24087;
-	margin: 0 10px 0 10px;
+	margin: 0 001.041666666667% 0 001.041666666667%; /*0 10px 0 10px*/
 	float: left;	
 }
 
