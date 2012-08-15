@@ -151,7 +151,7 @@ p {
 #contact aside {
 	font: 1.125em "Great Vibes", cursive; /*18px/16px*/
 	color: #d24087;	
-	padding: 12px;
+	padding: 001.25%; /*12px/960px*/
 }
 
 #contact span {
