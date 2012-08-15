@@ -128,12 +128,13 @@ p {
 /*---------Pricing and Packages--------*/
 
 #pricing {
+	width: 756px;
 	border: 5px dotted #d24087;
 	background: #bee5e2;
 	opacity: 1.2;
 	-moz-column-count: 3;
 	-moz-column-gap: 10px;
-	padding: 15px;
+	padding: 001.984126984127%; /*15px/756px*/
 }
 
 #pricing span{
