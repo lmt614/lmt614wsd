@@ -105,7 +105,7 @@ p {
 #gallery ul {
 	list-style-type: none;
 	width: 660px;
-	margin: 20px auto;
+	margin: 003.030303030303% auto;/*20px auto/660px*/
 	overflow: hidden;
 	padding: 0px;
 }
