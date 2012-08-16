@@ -91,14 +91,13 @@ h2 {
 	font: 1.75em "IM Fell French Canon SC", serif; /*28px*/
 	color: #61bfc7;
 	margin: 004.6875% 0 0 001.041666666667%; /*45px 0 0 10px/960px*/
-	padding: 0px;
+	padding: 0;
 }
 
 p {
 	font: 0.8125em "Prata", serif; /*13px/16px*/
 	margin-left: 001.25%; /*12px/960*/
 	line-height: 2.0;
-	overflow: hidden;
 }
 /*--------------End of Main Content-----------*/
 
@@ -109,7 +108,7 @@ p {
 	width: 660px;
 	margin: 002.083333333333% auto;/*20px auto/960px*/
 	overflow: hidden;
-	padding: 0px;
+	padding: 0;
 }
 
 #gallery li {
@@ -214,12 +213,14 @@ p {
 	background: -moz-linear-gradient(top,  #feb1d3,  #f171ab);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#feb1d3', endColorstr='#f171ab');
 }
+
 .pink:hover {
 	background: #d57ea5;
 	background: -webkit-gradient(linear, left top, left bottom, from(#f4aacb), to(#e86ca4));
 	background: -moz-linear-gradient(top,  #f4aacb,  #e86ca4);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4aacb', endColorstr='#e86ca4');
 }
+
 .pink:active {
 	color: #f3c3d9;
 	background: -webkit-gradient(linear, left top, left bottom, from(#f171ab), to(#feb1d3));
