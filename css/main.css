@@ -135,7 +135,7 @@ p {
 	opacity: 1.2;
 	-moz-column-count: 3;
 	-moz-column-gap: 10px;
-	padding: 13px; 
+	padding: 001.866666666667%; /*14px/750px*/
 }
 
 #pricing span{
