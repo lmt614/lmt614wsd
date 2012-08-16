@@ -18,7 +18,7 @@ body {
 }
 
 #wrapper {
-	max-width: 082.91666666667%; /*790px/960px*/
+	max-width: 082.291666666667%; /*790px/960px*/
 	margin: 0 auto;
 	background: #fff;
 }
@@ -105,7 +105,7 @@ p {
 
 #gallery ul {
 	list-style-type: none;
-	width: 660px;
+	width: 083.544303797468%; /*660px/790*/
 	margin: 002.083333333333% auto;/*20px auto/960px*/
 	overflow: hidden;
 	padding: 0;
@@ -142,7 +142,7 @@ p {
 	background: #d24087; 
 	color: #fff;
 	font-size: 1.5625em; /*25px/16px*/
-	padding: 001.322751322751%; /*10px/756*/
+	padding: 001.333333333333%; /*10px/750*/
 	text-align: center;
 	
 }
