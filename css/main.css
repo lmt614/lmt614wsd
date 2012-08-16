@@ -18,7 +18,7 @@ body {
 }
 
 #wrapper {
-	width: 082.91666666667%; /*790px/960px*/
+	max-width: 082.91666666667%; /*790px/960px*/
 	margin: 0 auto;
 	background: #fff;
 }
@@ -129,13 +129,13 @@ p {
 /*---------Pricing and Packages--------*/
 
 #pricing {
-	width: 756px;
+	width: 094.936708860759%; /*750px/790px*/
 	border: 5px dotted #d24087;
 	background: #bee5e2;
 	opacity: 1.2;
 	-moz-column-count: 3;
 	-moz-column-gap: 10px;
-	padding: 001.984126984127%; /*15px/756px*/
+	padding: 13px; 
 }
 
 #pricing span{
@@ -240,7 +240,7 @@ p {
 
 /*----------------Footer------------*/
 div footer {
-	width: 790px;
+	width: 100%; /*790px*/
 	margin: 0 auto;
 	color: #fff;
 	text-align: center;
