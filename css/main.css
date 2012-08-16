@@ -75,7 +75,6 @@ article img{
 	max-width: 100%;
 	margin: 0 001.898734177215% 0 001.898734177215%; /*0 15px 0 15px/790px*/
 	float: left;
-	padding: 0;
 }
 
 header h1 {
@@ -99,7 +98,7 @@ h2 {
 
 p {
 	font: 0.8125em "Prata", serif; /*13px/16px*/
-	margin: 001.518987341772% 001.518987341772% ; /*12px/790*/
+	margin: 001.518987341772% 001.518987341772% ; /*12px 12px/790*/
 	line-height: 2.0;
 }
 /*--------------End of Main Content-----------*/
@@ -115,6 +114,7 @@ p {
 }
 
 #gallery li {
+	width: 019.69696969697%; /*130px/660px*/
 	float: left;
 	margin: 0 0 0 000.253164556962%; /*0 0 0 2px/790px*/
 	padding: 0 0 0 001.212121212121%; /*0 0 0 8px/660px*/
