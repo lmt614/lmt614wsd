@@ -25,7 +25,7 @@ body {
 /*---------Main Navigation-----------*/
 
 nav ul{
-	width: 300px;
+	width: 037.974683544304%; /*300px;*/
 	margin:0 auto;
 	background: #d24087;
 	list-style-type: none;
@@ -34,7 +34,7 @@ nav ul{
 }
 
 nav li {
-	width: 100px;
+	width: 033.333333333333%; /*100px*/
 	float: left; 
 	
 }
@@ -76,7 +76,7 @@ article img{
 }
 
 header h1 {
-	width: 790px;
+	width: 100%; /*790px*/
 	height: 150px;
 	padding: 0;
 	margin: 0 auto;
@@ -134,7 +134,7 @@ p {
 	background: #bee5e2;
 	opacity: 1.2;
 	-moz-column-count: 3;
-	-moz-column-gap: 10px;
+	-moz-column-gap: 001.333333333333%; /*10px*/
 	padding: 001.866666666667%; /*14px/750px*/
 }
 
