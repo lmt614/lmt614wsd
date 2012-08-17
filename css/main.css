@@ -284,7 +284,37 @@ div footer {
 	
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#wrapper {
+			background-image: none;
+			background-color: #ff7743;
+			
+		}
 		
+		header h1 {
+			background-image: none;
+			background-color: #d24087;
+			font-size: 38px;
+		}
+		
+		h2{
+			font-size: 24px;
+			padding-top: 20px;
+		}
+		
+		article img {
+			display: none;
+		}
+		
+		#pricing {
+			font-size: 8px;
+			-moz-column-count: 3;
+			
+		}
+
+		#pricing span{
+			font-size: 16px; /*25px/16px*/
+					
+		}
 }
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
