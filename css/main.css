@@ -319,5 +319,25 @@ div footer {
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-			
+		#wrapper {
+			background-color: #d593ff;
+		}
+		
+		h1 {
+			font-size: 30px;
+		}
+		
+		article img {
+			display: none;
+		}	
+		
+		#pricing {
+			font-size: 11px;
+			-moz-column-count: 1;
+			-moz-column-gap: 10px
+		}
+
+		#pricing span{
+			font-size: 8px; 		
+		}			
 }						
