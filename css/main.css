@@ -284,13 +284,13 @@ div footer {
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
 	@media only screen and (max-width: 479px) {
 		#wrapper {
-			background-color: #f8e5ee;
+			background-color: #000;
 			
 		}	
 		
 		header h1 {
 			background-image: none;
-			background-color: #000;
+			background-color: #d24087;
 			font-size: 2.5em; 
 			color: #d24087;
 		}	
