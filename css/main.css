@@ -259,7 +259,7 @@ div footer {
 	/* Tablets Portrait size to standard 960 (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 969px) {
 		#wrapper {
-			background-color: #609cff; /*blue*/
+			background-color: #fff; 
 		}
 		
 		header h1 {
@@ -286,7 +286,7 @@ div footer {
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		#wrapper {
 			background-image: none;
-			background-color: #ff7743;
+			background-color: #fff;
 			
 		}
 		
@@ -320,7 +320,7 @@ div footer {
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 		#wrapper {
-			background-color: #d593ff;
+			background-color: #fff;
 		}
 		
 		h1 {
