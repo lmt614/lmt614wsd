@@ -240,8 +240,8 @@ p {
 	width: 790px;
 	background-color: #bee5e2;
 	
-
-}------------End of Form------------*/
+}
+------------End of Form------------*/
 
 /*----------------Footer------------*/
 div footer {
@@ -256,88 +256,93 @@ div footer {
 /* =Media Queries
 ======================================================= */
 
-	/* Tablets Portrait size to standard 960 (devices and browsers) */
-	@media screen and (min-width: 768px) and (max-width: 969px) {
-		#wrapper {
-			background-color: #fff; 
-		}
+/* Tablets Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 969px) {
+
+#wrapper {
+	background-color: #fff; 
+}
 		
-		header h1 {
-			background-image: none;
-			background-color: #d24087;
-		}
+header h1 {
+	background-image: none;
+	background-color: #d24087;
+}
 		
 
-		#pricing {
-			font-size: 15px;
-			-moz-column-count: 3;
+#pricing {
+	font-size: 15px;
+	-moz-column-count: 3;
 			
-		}
+}
 
-		#pricing span{
-			font-size: 20px; 
+#pricing span{
+	font-size: 20px;
 			
-		}
+}
 		
 	
 }
 	
-	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		#wrapper {
-			background-image: none;
-			background-color: #fff;
-			
-		}
-		
-		header h1 {
-			background-image: none;
-			background-color: #d24087;
-			font-size: 38px;
-		}
-		
-		h2{
-			font-size: 24px;
-			padding-top: 20px;
-		}
-		
-		article img {
-			display: none;
-		}
-		
-		#pricing {
-			font-size: 8px;
-			-moz-column-count: 3;
-			
-		}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 
-		#pricing span{
-			font-size: 16px; /*25px/16px*/
+#wrapper {
+	background-image: none;
+	background-color: #fff;
+			
+}
+		
+header h1 {
+	background-image: none;
+	background-color: #d24087;
+	font-size: 38px;
+}
+		
+h2{
+	font-size: 24px;
+	padding-top: 20px;
+}
+		
+article img {
+	display: none;
+}
+		
+#pricing {
+	font-size: 8px;
+	-moz-column-count: 3;
+			
+}
+
+#pricing span {
+	font-size: 25px;
 					
-		}
 }
 
-	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {
-		#wrapper {
-			background-color: #fff;
-		}
-		
-		h1 {
-			font-size: 30px;
-		}
-		
-		article img {
-			display: none;
-		}	
-		
-		#pricing {
-			font-size: 11px;
-			-moz-column-count: 1;
-			-moz-column-gap: 10px
-		}
+}
 
-		#pricing span{
-			font-size: 8px; 		
-		}			
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+		
+#wrapper {
+	background-color: #fff;
+}
+		
+h1 {
+	font-size: 30px;
+}
+		
+article img {
+	display: none;
+}	
+		
+#pricing {
+	font-size: 11px;
+	-moz-column-count: 1;
+	-moz-column-gap: 10px
+}
+
+#pricing span{
+	font-size: 8px; 		
+}			
+
 }						
