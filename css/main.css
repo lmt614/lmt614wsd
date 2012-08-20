@@ -27,7 +27,6 @@ body {
 nav ul{
 	width: 037.974683544304%; /*300px;*/
 	margin:0 auto;
-	background: #d24087;
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;	
@@ -256,7 +255,7 @@ div footer {
 /* =Media Queries
 ======================================================= */
 
-/* Tablets Portrait size to standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
 @media screen and (min-width: 768px) and (max-width: 969px) {
 
 #wrapper {
@@ -287,9 +286,11 @@ header h1 {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
 #wrapper {
-	background-image: none;
-	background-color: #fff;
-			
+	background-color: #333;	
+}
+
+nav ul {
+	width: 100%;
 }
 		
 header h1 {
@@ -305,6 +306,31 @@ h2{
 		
 article img {
 	display: none;
+}
+
+#gallery ul {
+	border: 1px dashed #fff;
+	list-style-type: none;
+	width: 527px;
+	margin: 002.53164556962% auto;/*20px auto/790px*/
+}
+
+#gallery li {
+	width: 019.69696969697%; /*130px/660px*/
+	max-width: 100%;
+	float: left;
+	overflow: hidden;
+	margin: 0 0 0 000.253164556962%; /*0 0 0 2px/790px*/
+	padding: 0 0 0 001.212121212121%; /*0 0 0 8px/660px*/
+}
+
+#gallery a {
+	border: 6px solid #d24087;
+	height: 231px;
+	width: 130px;
+	margin: 001.26582278481% 000.253164556962% 001.26582278481% 000.253164556962%; /*10px 2px 10px 2px/790px*/ 
+	display: block;
+	overflow: hidden;
 }
 		
 #pricing {
@@ -324,10 +350,15 @@ article img {
 @media only screen and (max-width: 479px) {
 		
 #wrapper {
-	background-color: #fff;
+	background-color: #999;
 }
-		
-h1 {
+	
+nav ul {
+	width: 100%;
+}		
+
+
+header h1 {
 	font-size: 30px;
 }
 		
@@ -343,6 +374,10 @@ article img {
 
 #pricing span{
 	font-size: 8px; 		
-}			
+}		
+
+aside {
+	display: none;
+}	
 
 }						
