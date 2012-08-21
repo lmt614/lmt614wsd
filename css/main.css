@@ -130,6 +130,27 @@ p {
 
 /*----------End of Image Gallery----*/
 
+/*---------Pricing Section----------*/
+
+table{
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid #000;
+	background-color: #bee5e2;
+	padding: 0.3em;
+}
+
+th {
+	border: 1px solid #000;
+	text-align: center;
+	background-color: #d24087; 
+	color: #fff;
+	padding: 0.3em;
+}
+
+/*---------End of Pricing Section-------*/
 
 /*--------Contact Section----------*/
 
