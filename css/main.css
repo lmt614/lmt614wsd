@@ -266,7 +266,16 @@ header h1 {
 	background-image: none;
 	background-color: #d24087;
 }
-		
+
+#gallery ul {
+	width: 610px;
+	margin: 0 auto;
+	padding: 15px 0 15px 45px; 
+}	
+
+#gallery li {
+
+}	
 
 #pricing {
 	font-size: 15px;
@@ -309,28 +318,23 @@ article img {
 }
 
 #gallery ul {
-	border: 1px dashed #fff;
-	list-style-type: none;
-	width: 527px;
-	margin: 002.53164556962% auto;/*20px auto/790px*/
-}
+	width: 300px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 15px 0 25px 0;
+}	
 
 #gallery li {
-	width: 019.69696969697%; /*130px/660px*/
-	max-width: 100%;
 	float: left;
-	overflow: hidden;
-	margin: 0 0 0 000.253164556962%; /*0 0 0 2px/790px*/
-	padding: 0 0 0 001.212121212121%; /*0 0 0 8px/660px*/
+	width: 130px;
+	height: 231px;
+	margin: 10px 0 10px 5px;
 }
 
 #gallery a {
-	border: 6px solid #d24087;
 	height: 231px;
-	width: 130px;
-	margin: 001.26582278481% 000.253164556962% 001.26582278481% 000.253164556962%; /*10px 2px 10px 2px/790px*/ 
 	display: block;
-	overflow: hidden;
+	
 }
 		
 #pricing {
@@ -370,6 +374,26 @@ h2 {
 article img {
 	display: none;
 }	
+	
+#gallery ul {
+	
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 15px 0 25px 0;
+}	
+
+#gallery li {
+	float: left;
+	width: 130px;
+	height: 231px;
+	margin: 10px 0 10px 5px;
+}
+
+#gallery a {
+	height: 231px;
+	display: block;
+	
+}
 		
 #pricing {
 	font-size: 11px;
