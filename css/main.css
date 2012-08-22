@@ -241,14 +241,9 @@ form {
 	border: 5px dotted #d24087;
 }
 
-#special_offers {
-	float: left;
-	margin-right: 10px;
-}
-
 label {
 	display: block;
-	padding: 13px 0 0 10px;
+	padding: 8px 0 0 10px;
 }
 
 input {
@@ -265,7 +260,7 @@ input:focus {
 }
 
 select {
-	margin: 7px;
+	margin: 10px;
 }
 
 textarea {
@@ -282,6 +277,13 @@ textarea:focus {
     border-radius:2px;
 }
 
+#special_offers {
+	float: left;
+	padding-right: 10px;
+}
+
+
+
 /*------------End of Form------------*/
 
 /*----------------Footer------------*/
@@ -291,6 +293,7 @@ div footer {
 	color: #fff;
 	text-align: center;
 	background: #d24087;
+	clear: both;
 }
 /*------------End of Footer----------*/
 
