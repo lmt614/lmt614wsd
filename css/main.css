@@ -137,13 +137,13 @@ table{
 }
 
 td {
-	border: 1px solid #000;
+	border: 1px solid #999;
 	background-color: #bee5e2;
 	padding: 0.3em;
 }
 
 th {
-	border: 1px solid #000;
+	border: 1px solid #999;
 	text-align: center;
 	background-color: #d24087; 
 	color: #fff;
@@ -233,14 +233,39 @@ th {
 }
 /*------------End of Contact Button---------*/
 
-/*------------Space for Form---------
+/*------------Space for Form-------*/
 
-#form {
-	width: 790px;
+form {
+	width: 780px;
 	background-color: #bee5e2;
+	border: 5px dotted #d24087;	
+}
+
+label {
+	padding: 10px;
+}
+
+input {
+	margin: 15px;
+	padding: 5px;
 	
 }
-------------End of Form------------*/
+
+input:focus {
+	background: #ede9e5;
+	border: 2px solid #d24087; 
+}
+
+textarea {
+ 
+}
+
+textarea:focus {
+	background: #ede9e5;
+	border: 2px solid #d24087;
+}
+
+/*------------End of Form------------*/
 
 /*----------------Footer------------*/
 div footer {
