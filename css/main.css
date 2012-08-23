@@ -236,23 +236,24 @@ th {
 /*------------Space for Form-------*/
 
 form {
-	width: 96%;
+	width: 096.329113924051%; /*761px/790*/
 	background-image: url("../images/flowers_contact_form.png");
 	background-color: #bee5e2;
 	border:1px solid #aaa;
 	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
-	border-radius:2px;
-	margin: 5px auto;
+	border-radius: 2px;
+	margin: 000.632911392405% auto; /*5px/790px*/
 }
 
 label {
 	display: block;
-	padding: 8px 0 0 10px;
+	padding: 001.051248357424% 0 0 001.314060446781%; /*8px 0 0 10px/761px*/
 }
 
 input {
-	margin: 5px 0 10px 10px;
-	padding: 5px;
+	width: 021.024967148489%; /*160px/761px*/
+	margin: 000.65703022339% 0 001.314060446781% 001.314060446781%; /*5px 0 10px 10px/761px*/
+	padding: 000.65703022339%;/*5px/761px*/
 	border:1px solid #aaa;
     box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
     border-radius:2px;
@@ -263,16 +264,19 @@ input:focus {
 	border: 2px solid #d24087; 
 }
 
+:-moz-placeholder {
+	text-indent: 5px;
+}
 
 select {
-	margin: 10px;
+	margin: 001.314060446781%; /*10px/761px*/
 }
 
 textarea {
 	border:1px solid #aaa;
     box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
     border-radius:2px;
-    margin: 10px;
+    margin: 001.314060446781%; /*10px/761px*/
 }
 
 textarea:focus {
@@ -283,8 +287,10 @@ textarea:focus {
 }
 
 #special_offers {
+	width: 002.365308804205%; /*18px/761px*/
+	height: 20px;
 	float: left;
-	margin: 5px 5px 5px 10px;
+	margin: 0 001.576872536137% 000.65703022339% 001.314060446781%; /*0 12px 5px 10px/761px*/
 }
 /*------------End of Form------------*/
 
@@ -297,7 +303,6 @@ div footer {
 	color: #fff;
 	text-align: center;
 	background: #d24087;
-	clear: both;
 }
 /*------------End of Footer----------*/
 
@@ -317,11 +322,28 @@ header h1 {
 }
 
 #gallery ul {
-	width: 610px;
+	width: 090.909090909091%; /*600px/660px*/ 
+	overflow: hidden;
 	margin: 0 auto;
-	padding: 15px 0 15px 45px; 
+	padding: 002.5% 001.666666666667% 004.166666666667% 0;/*15px 10px 25px 0/600px*/
 }	
+
+#gallery li {
+	float: left;
+	width: 130px;
+	height: 231px;
+	margin: 10px 0 10px 0px;
+}
+
+#gallery a {
+	height: 231px;
+	display: block;
 	
+}
+
+form {
+	background-image: none;
+}	
 		
 }
 	
@@ -339,11 +361,11 @@ nav ul {
 header h1 {
 	background-image: none;
 	background-color: #d24087;
-	font-size: 38px;
+	font-size: 2.375em; /*38px/16px*/
 }
 		
 h2{
-	font-size: 24px;
+	font-size: 1.5em; /*24px/16px*/
 	padding-top: 20px;
 }
 		
@@ -371,6 +393,10 @@ article img {
 	
 }
 
+form {
+	background-image: none;
+}	
+
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -386,11 +412,11 @@ nav ul {
 
 
 header h1 {
-	font-size: 30px;
+	font-size: 1.875em; /*30px/16px*/
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 1.5em; /*24px/16px*/
 	margin: 35px 5px 12px 5px;
 }
 		
@@ -399,7 +425,6 @@ article img {
 }	
 	
 #gallery ul {
-	
 	overflow: hidden;
 	margin: 0 auto;
 	padding: 15px 0 25px 0;
@@ -419,6 +444,10 @@ article img {
 		
 aside {
 	display: none;
+}	
+
+form {
+	background-image: none;
 }	
 
 }						
