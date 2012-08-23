@@ -132,13 +132,13 @@ p {
 
 /*---------Pricing Section----------*/
 
-table{
+table {
 	border-collapse: collapse;
 }
 
 td {
 	border: 1px solid #999;
-	background-color: #bee5e2;
+	background-color: #e8c8e0;
 	padding: 0.3em;
 }
 
@@ -172,7 +172,7 @@ th {
 	zoom: 1; /*-----zoom and *display = ie7 hack for display:inline-block-----*/
 	*display: inline;
 	vertical-align: baseline;
-	margin: 0 000.253164556962%; /*0 2px/790px*/
+	margin: 0 0 001.898734177215% 001.518987341772%; /*0 0 15px 10px/790px*/
 	outline: none;
 	cursor: pointer;
 	text-align: center;
@@ -236,9 +236,11 @@ th {
 /*------------Space for Form-------*/
 
 form {
-	width: 780px;
 	background-color: #bee5e2;
-	border: 5px dotted #d24087;
+	border:1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius:2px;
+	margin: 10px auto;
 }
 
 label {
@@ -281,12 +283,10 @@ textarea:focus {
 	float: left;
 	padding-right: 10px;
 }
-
-
-
 /*------------End of Form------------*/
 
 /*----------------Footer------------*/
+
 div footer {
 	width: 100%; /*790px*/
 	margin: 0 auto;
