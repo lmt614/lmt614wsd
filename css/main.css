@@ -329,7 +329,7 @@ form {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
 #wrapper {
-	background-color: #333;	
+	background-color: #fff;	
 }
 
 nav ul {
@@ -348,7 +348,7 @@ h2{
 }
 
 p {
-	padding: 10px;
+	padding: 001.26582278481%; /*10px/790px*/
 }
 		
 article img {
@@ -394,7 +394,7 @@ select {
 @media only screen and (max-width: 479px) {
 		
 #wrapper {
-	background-color: #999;
+	background-color: #fff;
 }
 	
 nav ul {
@@ -412,7 +412,7 @@ h2 {
 }
 
 p {
-	padding: 10px;
+	padding: 001.26582278481%; /*10px/790px*/
 }
 		
 article img {
